@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Nim</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="loadScreen">
+        <h1 class="gameTitle">NIM</h1>
+        <div class="rules">
+            <h2 class="rulesHead">Rules</h2>
+            <ul>
+                <li>There are certain number of objects.</li>
+                <li>You can remove 1, 2 or 3 objects when its your turn. The computer will also do the same.</li>
+                <li>Last one to pick the object loses.</li>
+            </ul>
+        </div>
+        <button class="playButton">Play</button>
+    </div>
+    <div class="gameBoard">
+        <div class="objectCount">
+
+        </div>
+        <div class="objectContainer">
+            
+        </div>
+        <div class="textContainer">
+            <input type="number" max="3" min="1" value="1" class="text">
+            <button class="click">Remove</button> 
+        </div>
+    </div>
+    <div class="endScreen">
+        <h2 class="loseHead">You Lost</h2>
+        <button class="restartButton">Restart</button>
+    </div>
+</body>
+</html>
